@@ -1,7 +1,7 @@
 // THIS IS THE CLIENT!!!
 import io from 'socket.io-client';
 
-const API_URL = 'http://localhost:5000';
+const API_URL = window.location.hostname === 'localhost' ? 'http://localhost:5000' : 'https://mouse-with-friends-api.now.sh';
 const socket = io.connect(API_URL);
 const mice = {};
 

@@ -30,7 +30,20 @@ Build a web page where every user can see every other users mouse move!
     * [x] parcel index.html
   * [ ] Setup socket connection
     * [ ] Listen for 'hello world'
-* ????
+
+
+# STRETCH
+
+* [ ] Show usernames above mouse
+* [ ] Show _some_ indicator of the current users mouse
+* [ ] Collective Game
+  * [ ] Keep the cheese up
+    * [ ] Falling cheese, hit cheese to bounce up
+  * [ ] 1 player is Cat
+    * [ ] Chases all the mice
+* [ ] Move local mouse without waiting for server message
+* [ ] Mouse orients to direction of travel
+* [ ] Server sends ALL mice locations on an interval (instead of sending every single mouse move)
 
 
 Co-authored-by: CJ R. <cj@null.computer>
